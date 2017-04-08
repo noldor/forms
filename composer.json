@@ -1,0 +1,24 @@
+{
+    "name": "noldors/forms",
+    "description": "forms",
+    "keywords": ["forms"],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1",
+        "noldors/contracts": ">=0.0.1",
+        "noldors/collection": ">=0.0.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Noldors\\Forms\\": ""
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Noldors\\Forms\\Tests\\": "tests"
+        }
+    }
+}
